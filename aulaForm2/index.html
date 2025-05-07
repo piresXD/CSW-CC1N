@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+</head>
+
+<body>
+    <form action="mailto:frederico.venturin@gmail.com" method="post">
+
+        <!-- Campo de Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Insira seu email">
+        <br><br>
+    
+        <!-- Campo de Senha -->
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Insira sua senha">
+        <br><br>
+    
+        <!-- Checkboxes -->
+        <label>Selecione uma ou mais opções:</label><br>
+        <input type="checkbox" id="opcao1" name="opcao1">
+        <label for="opcao1">Opção 1</label><br>
+        <input type="checkbox" id="opcao2" name="opcao2">
+        <label for="opcao2">Opção 2</label><br>
+        <input type="checkbox" id="opcao3" name="opcao3">
+        <label for="opcao3">Opção 3</label>
+        <br><br>
+    
+        <!-- Botões de Rádio -->
+        <label>Escolha uma opção:</label><br>
+        <input type="radio" id="radio1" name="opcoes" value="1">
+        <label for="radio1">Opção 1</label><br>
+        <input type="radio" id="radio2" name="opcoes" value="2">
+        <label for="radio2">Opção 2</label><br>
+        <input type="radio" id="radio3" name="opcoes" value="3">
+        <label for="radio3">Opção 3</label>
+        <br><br>
+    
+        <!-- Lista de Esportes -->
+        <label for="esportes">Esporte favorito:</label>
+        <select name="esportes" id="esportes">
+            <option value="">Selecione</option>
+            <option value="basquete">Basquete</option>
+            <option value="futebol">Futebol</option>
+            <option value="volei">Vôlei</option>
+            <option value="handball">Handball</option>
+        </select>
+        <br><br>
+    
+        <!-- Idade -->
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade">
+        <br><br>
+    
+        <!-- Cor -->
+        <label for="cor">Escolha uma cor:</label>
+        <input type="color" id="cor" name="cor">
+        <br><br>
+    
+        <!-- Botão -->
+        <input type="button" value="Clique Aqui">
+        <br><br>
+    
+        <!-- Data e Hora -->
+        <label for="datahora">Data e Hora:</label>
+        <input type="datetime-local" id="datahora" name="datahora">
+        <br><br>
+    
+        <!-- Upload de Arquivo -->
+        <label for="arquivo">Selecione um arquivo:</label>
+        <input type="file" id="arquivo" name="arquivo">
+        <br><br>
+    
+        <!-- Enviar -->
+        <input type="submit" value="Enviar">
+    
+    </form>
+</body>
+
+</html>

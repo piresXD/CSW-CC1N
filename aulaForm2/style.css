@@ -1,0 +1,15 @@
+
+
+.Form{
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.FormOp{
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
